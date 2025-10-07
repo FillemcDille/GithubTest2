@@ -6,13 +6,25 @@
 
 <p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
+<button class="@GetColorButton()" @onclick="IncrementCount">+1</button>
+<button class="@GetColorButton()" @onclick="DecreaseCount">-1</button>
+<button class="btn btn-secondary" @onclick="ResetCount">Reset</button>
 @code {
     private int currentCount = 0;
 
-    private void IncrementCount()
+    private void IncrementCount() => currentCount++;
+
+    private void DecreaseCount() => currentCount--;
+
+    private void ResetCount() => currentCount = 0;
+
+    private string GetColorButton()
     {
-        currentCount++;
+        if (currentCount < 0) return "btn-success";
+        if (currentCount > 0) return "btn-danger";
+        return "btn btn-warning";
     }
+
+
+
 }

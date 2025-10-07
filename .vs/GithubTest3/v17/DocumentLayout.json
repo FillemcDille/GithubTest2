@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\filip\\Desktop\\Skolprojekt2\\GithubTest3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D18C51B3-E699-44D1-86FD-EC4818009AD8}|GithubTest3\\GithubTest3.csproj|c:\\users\\filip\\desktop\\skolprojekt2\\githubtest3\\githubtest3\\pages\\nyprojekt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D18C51B3-E699-44D1-86FD-EC4818009AD8}|GithubTest3\\GithubTest3.csproj|solutionrelative:githubtest3\\pages\\nyprojekt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D18C51B3-E699-44D1-86FD-EC4818009AD8}|GithubTest3\\GithubTest3.csproj|c:\\users\\filip\\desktop\\skolprojekt2\\githubtest3\\githubtest3\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D18C51B3-E699-44D1-86FD-EC4818009AD8}|GithubTest3\\GithubTest3.csproj|solutionrelative:githubtest3\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NyProjekt.razor",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Skolprojekt2\\GithubTest3\\GithubTest3\\Pages\\NyProjekt.razor",
-              "RelativeDocumentMoniker": "GithubTest3\\Pages\\NyProjekt.razor",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Skolprojekt2\\GithubTest3\\GithubTest3\\Pages\\NyProjekt.razor",
-              "RelativeToolTip": "GithubTest3\\Pages\\NyProjekt.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Skolprojekt2\\GithubTest3\\GithubTest3\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "GithubTest3\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Skolprojekt2\\GithubTest3\\GithubTest3\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "GithubTest3\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T09:58:45.801Z",
+              "WhenOpened": "2025-10-07T11:32:45.447Z",
               "EditorCaption": ""
             }
           ]

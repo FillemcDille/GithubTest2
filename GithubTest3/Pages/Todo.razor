@@ -1,0 +1,36 @@
+﻿@page "/todo"
+<h3>Todo-lista</h3>
+
+
+
+<input @bind="newTodo" placeholder="Skriv en todo"/>
+<button class="btn btn-primary" @onclick="AddTodo">Add</button>
+
+@foreach(var todo in todos)
+{
+	<li>
+		@todo
+		<button class="btn btn-danger btn-sm" style="margin:10px;" @onclick="() => RemoveTodo(todo)">
+			Ta Bort
+		</button>
+	</li>
+}
+
+
+@code {
+	private string newTodo = "";
+	private List<string> todos = new();
+
+	private void AddTodo()
+	{
+		if (!string.IsNullOrWhiteSpace(newTodo))
+		{
+			todos.Add(newTodo);
+			newTodo = "";
+		}
+	}
+	private void RemoveTodo(string todo)
+	{
+		todos.Remove(todo);
+	}
+}
