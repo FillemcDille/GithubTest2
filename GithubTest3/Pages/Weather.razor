@@ -1,9 +1,9 @@
 ﻿@page "/weather"
 @inject HttpClient Http
 
-<PageTitle>Weather</PageTitle>
+<PageTitle>Min Egen Väder Sida</PageTitle>
 
-<h1>Weather</h1>
+<h1>Min Egen Väder Sida</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
 
@@ -30,6 +30,7 @@ else
                     <td>@forecast.TemperatureC</td>
                     <td>@forecast.TemperatureF</td>
                     <td>@forecast.Summary</td>
+                    <td>@(forecast.TemperatureC > 10 ? "nice" : "")</td>
                 </tr>
             }
         </tbody>
